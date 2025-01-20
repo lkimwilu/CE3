@@ -2,10 +2,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./components/home";
-import Events from "./components/events";
-import Services from "./components/services";
-import Virtualtours from "./components/virtualtours";
+import Home from "./pages/home";
+import Events from "./pages/events";
+import Services from "./pages/services";
+import Virtualtours from "./pages/virtualtours";
 import App from "./App";
 
 
