@@ -1,0 +1,117 @@
+/* home.css */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  /* background-color: #FFCDC6; */
+}
+
+.home-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.home-text h1 {
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.home-text p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.learn-more-btn {
+  background-color: #FF8F85;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #d02229;
+}
+
+.home-banner {
+  flex: 1;
+  max-width: 50%;
+}
+
+.home-banner img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 50vh;
+}
+
+.top-picks-section {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.top-picks-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.top-picks-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.top-pick-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  /* Adjust the width of the cards */
+}
+
+.top-pick-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.top-pick-card h3 {
+  font-size: 20px;
+  color: #000;
+  margin-top: 15px;
+}
+
+.top-pick-card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .top-picks-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-pick-card {
+    width: 80%;
+    /* Adjust the card width on smaller screens */
+    margin-bottom: 20px;
+  }
+}
