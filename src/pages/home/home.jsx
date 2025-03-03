@@ -1,10 +1,12 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa"; // Import the Plus icon from react-icons
 import './home.css';
+import Sidebar from "../../components/searchbar/sidebar";
 
 const Home = () => {
   return (
     <>
+    <Sidebar/>
       <div className="home-container">
         <div className="home-text">
           <h1>Explore the beauty of Kibera</h1>
