@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa"; // Import the Plus icon from react-icons
 import './home.css';
-import Sidebar from "../../components/searchbar/sidebar";
+import Sidebar from "../../components/search/Search";
 
 const Home = () => {
   return (
